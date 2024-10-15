@@ -15,7 +15,7 @@ COPY requirements.txt ./
 RUN pip install -r requirements.txt
 
 # Copy the .env file to the working directory
-COPY .env ./
+COPY .env.example ./.env
 
 # Copy the entire project into the container
 COPY . .

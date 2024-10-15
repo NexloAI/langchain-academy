@@ -13,14 +13,16 @@
    - Search for "Remote - Containers"
    - Click "Install"
 
-## Setting Up API Keys
+## Setting Up API Keys 
 
-1. **Create a `.env` file in the project root directory:**
-
-   - Copy the `.env.example` file to the project root and rename it to `.env`.
-
-2. **Edit the `.env` file to set your API keys:**
+1. **Edit the `.env.example` file in devcontainer directory to set your API keys:**
 
    ```plaintext
    OPENAI_API_KEY=your_openai_api_key_here
    TAVILY_API_KEY=your_tavily_api_key_here
+
+
+## Run dev container
+
+- In VSCode, cmd+shift+P on mac
+- Search  `Dev Container: Rebuild Container`
